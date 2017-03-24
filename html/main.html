@@ -1,0 +1,32 @@
+<head>
+    <meta charset="utf-8">
+    <title>
+        Load file
+    </title>
+    
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="application/javascript"></script>
+    <script src="main.js" type="application/javascript" ></script>
+    
+    <div id="form" class="cls-util">
+        <div>
+            <label for="fileupload" class="cls-common">Выберите файл для парсинга</label>
+        </div>
+        <div>
+            <input type="file" name="fileupload" value="fileupload" class="cls-common" id="fileupload">        
+        </div>
+        <div>
+            <input type="button" id="submit_button" value="Отправить" class="cls-common" onclick="onStartSend()">        
+        </div>  
+        
+        <div id="progressbar_outer" class="cls-pb-outer cls-common">
+            <div id="progressbar-inner" class="cls-pb-inner"></div>
+        </div>
+        <div>
+            <textarea id="resulttext" readonly class="cls-textblock cls-common">
+            </textarea>
+        </div>
+    </div>
+</body>

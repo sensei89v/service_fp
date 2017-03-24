@@ -1,0 +1,27 @@
+.cls-pb-outer {
+    width: 100%;
+    background-color: red;
+}
+
+.cls-pb-inner {
+    width: 0%;
+    height: 20px;    
+    background-color: blue;    
+}
+
+.cls-util {
+    position: absolute;
+    align: center;
+    text-align: center; 
+    left: 20%;
+    width: 60%;    
+}
+
+.cls-common {
+    margin: 5px 5px 0px 0px;
+}
+.cls-textblock {    
+    width: 100%;   
+    height: 100px;
+    resize: none;
+}
