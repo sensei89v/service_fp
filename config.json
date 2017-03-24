@@ -1,0 +1,8 @@
+{
+    "server_port": 8000,
+    "obsolete_time": 60,
+    "clean_period": 1200,
+    "html": "html",
+    "css": "css",
+    "js": "js"
+}
