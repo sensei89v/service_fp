@@ -34,8 +34,7 @@ window.onload = function() {
     localStorage.removeItem("filename");    
 };
 
-function Uploader(file, pos, chunk_size, uid) {
-    alert(pos + " " + file + " " + file.size);
+function Uploader(file, pos, chunk_size, uid) {    
     this.file = file;
     this.uid = uid;
     this.chunk_size = chunk_size;
@@ -216,7 +215,7 @@ function onStartSend(obj) {
     
     if (files.length == 0)
     {
-        alert("File not selected");        
+        alert("Файл не выбран");        
         return;
     }    
     
